@@ -24,7 +24,7 @@ import com.Legend.Comandos.Head;
 import com.Legend.Comandos.Invsee;
 import com.Legend.Comandos.Itens;
 import com.Legend.Comandos.Kick;
-import com.Legend.Comandos.Manutenção;
+import com.Legend.Comandos.Manutencao;
 import com.Legend.Comandos.Matar;
 import com.Legend.Comandos.Mute;
 import com.Legend.Comandos.Ping;
@@ -184,15 +184,15 @@ public class Main extends JavaPlugin {
 		//MYSQLManager.criarTabela();
 		Change.addKits();
 		Change.newKits();
-		Bukkit.getConsoleSender().sendMessage("§b---------------------------------");
-		Bukkit.getConsoleSender().sendMessage("§b| LegendPvP Iniciou com sucesso |");
-		Bukkit.getConsoleSender().sendMessage("§b---------------------------------");
+		Bukkit.getConsoleSender().sendMessage("ï¿½b---------------------------------");
+		Bukkit.getConsoleSender().sendMessage("ï¿½b| LegendPvP Iniciou com sucesso |");
+		Bukkit.getConsoleSender().sendMessage("ï¿½b---------------------------------");
 	}
 
 	public void onDisable() {
-		Bukkit.getConsoleSender().sendMessage("§b---------------------------------");
-		Bukkit.getConsoleSender().sendMessage("§b| LegendPvP desligou com sucesso |");
-		Bukkit.getConsoleSender().sendMessage("§b---------------------------------");
+		Bukkit.getConsoleSender().sendMessage("ï¿½b---------------------------------");
+		Bukkit.getConsoleSender().sendMessage("ï¿½b| LegendPvP desligou com sucesso |");
+		Bukkit.getConsoleSender().sendMessage("ï¿½b---------------------------------");
 	}
 
 	public void Registro() {
@@ -325,7 +325,7 @@ public class Main extends JavaPlugin {
 		this.getCommand("crash").setExecutor(new Crash());
 		this.getCommand("setitens").setExecutor(new Itens());
 		this.getCommand("setarena").setExecutor(new Arena());
-		this.getCommand("manutencao").setExecutor(new Manutenção());
+		this.getCommand("manutencao").setExecutor(new Manutencao());
 		this.getCommand("login").setExecutor(new RegisterLogin());
 		this.getCommand("register").setExecutor(new RegisterLogin());
 		this.getCommand("trocarsenha").setExecutor(new RegisterLogin());

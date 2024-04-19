@@ -12,7 +12,7 @@ import org.bukkit.entity.Player;
 import com.Legend.Main;
 import com.Legend.kits.manager.Base;
 
-public class Manutenção implements CommandExecutor {
+public class Manutencao implements CommandExecutor {
 
 	public static List<String> nalista = new ArrayList<>();
 	@Override
@@ -20,7 +20,7 @@ public class Manutenção implements CommandExecutor {
 		if (cmd.getName().equalsIgnoreCase("manutencao")) {
 			if (sender.hasPermission("legend.manutencao")) {
 				if (args.length == 0) {
-					sender.sendMessage(Base.prefix + "§bUse §f/Manutencao <on,off>§b.");
+					sender.sendMessage(Base.prefix + "ï¿½bUse ï¿½f/Manutencao <on,off>ï¿½b.");
 				} else if (args.length == 1) {
 					if(args[0].equalsIgnoreCase("on")) {
 						nalista.add("RonaldoPHC");
@@ -30,13 +30,13 @@ public class Manutenção implements CommandExecutor {
 						setManu(true);
 						for(Player p : Bukkit.getOnlinePlayers()) {
 							if(!(p.hasPermission("legend.manutencao"))) {
-								p.kickPlayer("§bLegendPvP\n" + "§cServidor está em manutenção \n§aPara acompanhar entre em nosso Discord! \n§fdiscord.gg/WPEh5UGSh2");
+								p.kickPlayer("ï¿½bLegendPvP\n" + "ï¿½cServidor estï¿½ em manutenï¿½ï¿½o \nï¿½aPara acompanhar entre em nosso Discord! \nï¿½fdiscord.gg/WPEh5UGSh2");
 							}
 						}
-						Bukkit.broadcastMessage(Base.prefix + "§c§lO SERVER ENTROU EM MANUTENÇÃO");
+						Bukkit.broadcastMessage(Base.prefix + "ï¿½cï¿½lO SERVER ENTROU EM MANUTENï¿½ï¿½O");
 					} else if(args[0].equalsIgnoreCase("off")) {
 						setManu(false);
-						Bukkit.broadcastMessage(Base.prefix + "§c§lO SERVER SAIU DA MANUTENÇÃO");
+						Bukkit.broadcastMessage(Base.prefix + "ï¿½cï¿½lO SERVER SAIU DA MANUTENï¿½ï¿½O");
 					}
 				}
 			}
@@ -46,14 +46,14 @@ public class Manutenção implements CommandExecutor {
 	}
 
 	public static boolean getManu() {
-		 if (Main.server.getConfig().getBoolean(String.valueOf("Manutenção")) == true) {
+		 if (Main.server.getConfig().getBoolean(String.valueOf("Manutenï¿½ï¿½o")) == true) {
 			return true;
 		}
 		 return false;
 	}
 
 	public static void setManu(boolean a) {
-		Main.server.getConfig().set(String.valueOf("Manutenção"), a);
+		Main.server.getConfig().set(String.valueOf("Manutenï¿½ï¿½o"), a);
 		Main.server.save();
 	}
 }

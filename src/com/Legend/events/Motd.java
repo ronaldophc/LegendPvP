@@ -4,18 +4,18 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.server.ServerListPingEvent;
 
-import com.Legend.Comandos.Manutenção;
+import com.Legend.Comandos.Manutencao;
 
 public class Motd implements Listener {
 
 	@EventHandler
 	public void onMotd(ServerListPingEvent e) {
-		 if (Manutenção.getManu() == true) {
+		 if (Manutencao.getManu() == true) {
 			e.setMaxPlayers(60);
-			e.setMotd("    §b§lLegendPvP §f§l >> §c§lSITE ON\n       §a§lLegendPvP.com.br");
+			e.setMotd("    ï¿½bï¿½lLegendPvP ï¿½fï¿½l >> ï¿½cï¿½lSITE ON\n       ï¿½aï¿½lLegendPvP.com.br");
 		} else {
 			e.setMaxPlayers(60);
-			e.setMotd("    §b§lLegendPvP §f§l >> §c§lSITE ON\n       §a§lLegendPvP.com.br");
+			e.setMotd("    ï¿½bï¿½lLegendPvP ï¿½fï¿½l >> ï¿½cï¿½lSITE ON\n       ï¿½aï¿½lLegendPvP.com.br");
 		}
 	}
 }

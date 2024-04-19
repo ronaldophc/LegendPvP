@@ -6,24 +6,24 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerPreLoginEvent;
 
-import com.Legend.Comandos.Manutenção;
+import com.Legend.Comandos.Manutencao;
 
 @SuppressWarnings("deprecation")
 public class PlayerPreLogin implements Listener {
 	@EventHandler
 	public void SamesNicks(PlayerPreLoginEvent e) {
 		String name = e.getName();
-		if (Manutenção.getManu() == true) {
-			if (!(Manutenção.nalista.contains(name))) {
-				e.disallow(org.bukkit.event.player.PlayerPreLoginEvent.Result.KICK_OTHER, "§bLegendPvP\n"
-						+ "§cServidor está em manutenção \n§aPara acompanhar entre em nosso Discord! \n§fdiscord.gg/WPEh5UGSh2");
+		if (Manutencao.getManu() == true) {
+			if (!(Manutencao.nalista.contains(name))) {
+				e.disallow(org.bukkit.event.player.PlayerPreLoginEvent.Result.KICK_OTHER, "ï¿½bLegendPvP\n"
+						+ "ï¿½cServidor estï¿½ em manutenï¿½ï¿½o \nï¿½aPara acompanhar entre em nosso Discord! \nï¿½fdiscord.gg/WPEh5UGSh2");
 			}
 			return;
 		}
 		for (Player on : Bukkit.getOnlinePlayers()) {
 			if (on.getName().equals(name)) {
 				e.disallow(org.bukkit.event.player.PlayerPreLoginEvent.Result.KICK_OTHER,
-						"§bLegendPvP\n" + "§cJá existe um player logado no servidor com o nick de '§f" + name + "§b'");
+						"ï¿½bLegendPvP\n" + "ï¿½cJï¿½ existe um player logado no servidor com o nick de 'ï¿½f" + name + "ï¿½b'");
 				return;
 			}
 		}
