@@ -1,0 +1,77 @@
+name: LegendPvP
+main: com.Legend.Main
+version: 1.0
+author: Ronaldo
+
+commands:
+  builder:
+  kit:
+    aliases: [kits]
+  cc:
+  inv:
+  tag:
+  gm:
+  fly:
+  kick:
+  report:
+  areport:
+  responder:
+  say:
+  pvp:
+  tp:
+  s:
+  spawn:
+    aliases: [lobby]
+  setspawn:
+  fps:
+  setfps:
+  matar:
+  fake:
+  status:
+    aliases: [stats]
+  setdin:
+  reset:
+  sc:
+  admin:
+  ss:
+  rdm:
+  setrdm:
+  tskins:
+  ranks:
+  top:
+  login:
+    aliases: [entrar, logar]
+  register:
+    aliases: [registrar, cadastrar]
+  trocarsenha:
+  1v1:
+  set1v1:
+  head:
+  crash:
+  setitens:
+  setarena:
+  mute:
+  desmute:
+  discord:
+  tempmute:
+  tell:
+  reloade:
+  manutencao:
+  cKit:
+  site:
+  score:
+  sKit:
+  ping:
+  clear:
+  youtuber:
+  streamer:
+  getIP:
+  guihack:
+  guibugs:
+  guifreekill:
+  guichat:
+  reports:
+  lava:
+  change:
+  setlava:
+  la:
