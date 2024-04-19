@@ -2,14 +2,14 @@
 LegendPvP é um Plugin para servidores de minecraft, baseado no modo KitPvP.
 
 # Sobre o Plugin
-O Plugin não está em sua versão Final!
-Jar: Spigot 1.8.3.
-JRE System Library: JavaSE-1.8.
+O Plugin não está em sua versão Final!<br/>
+Jar: Spigot 1.8.3.<br/>
+JRE System Library: JavaSE-1.8.<br/>
 
 # Dependencias
-<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>SPIGOT-1.8.3-R0.1</a>
-<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>BossBarAPI 2.4.1</a>
-<a href=“(https://www.spigotmc.org/resources/rainbowtext-api.17709/)“>RainbowText 1.0.1</a>
+<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>SPIGOT-1.8.3-R0.1</a><br/>
+<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>BossBarAPI 2.4.1</a><br/>
+<a href=“(https://www.spigotmc.org/resources/rainbowtext-api.17709/)“>RainbowText 1.0.1</a><br/>
 
 # Como usar
 - Realizar o download do Plugin LegendPvP.jar
@@ -29,14 +29,14 @@ JRE System Library: JavaSE-1.8.
 LegendPvP is a Plugin for minecraft servers, based in mode KitPvP.
 
 # About Plugin
-The Plugin is not in the final version!
-Jar: Spigot 1.8.3.
-JRE System Library: JavaSE-1.8.
+The Plugin is not in the final version!<br/>
+Jar: Spigot 1.8.3.<br/>
+JRE System Library: JavaSE-1.8.<br/>
 
 # Dependencies
-<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>SPIGOT-1.8.3-R0.1</a>
-<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>BossBarAPI 2.4.1</a>
-<a href=“(https://www.spigotmc.org/resources/rainbowtext-api.17709/)“>RainbowText 1.0.1</a>
+<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>SPIGOT-1.8.3-R0.1</a><br/>
+<a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>BossBarAPI 2.4.1</a><br/>
+<a href=“(https://www.spigotmc.org/resources/rainbowtext-api.17709/)“>RainbowText 1.0.1</a><br/>
 
 # How to use
 - Download the LegendPvP.jar Plugin
