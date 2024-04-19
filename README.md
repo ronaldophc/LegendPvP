@@ -1,10 +1,10 @@
 # LegendPvP Português BR
-LegendPvP é um Plugin para servidores de minecraft, baseado no modo KitPvP.
+  LegendPvP é um Plugin para servidores de minecraft, baseado no modo KitPvP.
 
 # Sobre o Plugin
-O Plugin não está em sua versão Final!<br/>
-Jar: Spigot 1.8.3.<br/>
-JRE System Library: JavaSE-1.8.<br/>
+- O Plugin não está em sua versão Final!<br/>
+- Jar: Spigot 1.8.3.<br/>
+- JRE System Library: JavaSE-1.8.<br/>
 
 # Dependencias
 <a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>SPIGOT-1.8.3-R0.1</a><br/>
@@ -26,12 +26,12 @@ JRE System Library: JavaSE-1.8.<br/>
 ##
 
 # LegendPvP English
-LegendPvP is a Plugin for minecraft servers, based in mode KitPvP.
+  LegendPvP is a Plugin for minecraft servers, based in mode KitPvP.
 
 # About Plugin
-The Plugin is not in the final version!<br/>
-Jar: Spigot 1.8.3.<br/>
-JRE System Library: JavaSE-1.8.<br/>
+- The Plugin is not in the final version!<br/>
+- Jar: Spigot 1.8.3.<br/>
+- JRE System Library: JavaSE-1.8.<br/>
 
 # Dependencies
 <a href=“(https://getbukkit.org/get/zId4E0jbd76ubLgiVP5aMfYoiJXFCYGf)“>SPIGOT-1.8.3-R0.1</a><br/>
