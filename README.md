@@ -1,4 +1,4 @@
-# LegendPvP
+# LegendPvP Português BR
 LegendPvP é um Plugin para servidores de minecraft, baseado no modo KitPvP.
 
 # Sobre o Plugin
@@ -17,15 +17,15 @@ JRE System Library: JavaSE-1.8.
 - Em um servidor utilizando o Spigot 1.8.3 para ser iniciado colocar os Plugins na pasta Plugins.
 - Iniciar o servidor.
 
-Criado por Ronaldo Poleto Hortmann de Campos.
 # Contatos
-Discord: ronaldophc
-GitHub: github.com/ronaldophc
-Gmail: ronaldohortmann02@gmail.com
+- Discord: ronaldophc
+- GitHub: github.com/ronaldophc
+- Gmail: ronaldohortmann02@gmail.com
+- Criado por Ronaldo Poleto Hortmann de Campos.
 
 ##
 
-# LegendPvP
+# LegendPvP English
 LegendPvP is a Plugin for minecraft servers, based in mode KitPvP.
 
 # About Plugin
@@ -44,9 +44,9 @@ JRE System Library: JavaSE-1.8.
 - On a server using Spigot 1.8.3 to start, place the Plugins in the Plugins folder.
 - Start the server.
 
-Created by Ronaldo Poleto Hortmann de Campos.
 # Contact
-Discord: ronaldophc
-GitHub: github.com/ronaldophc
-Gmail: ronaldohortmann02@gmail.com
+- Discord: ronaldophc
+- GitHub: github.com/ronaldophc
+- Gmail: ronaldohortmann02@gmail.com
+- Created by Ronaldo Poleto Hortmann de Campos.
 
